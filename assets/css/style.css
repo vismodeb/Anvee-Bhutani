@@ -1,0 +1,86 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+/* Default Css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: transparent;
+}
+body {
+  font-size: 16px;
+  font-weight: 400;
+  background: hsl(8.28deg 67.44% 91.57%);
+  font-family: "Cormorant Garamond", serif;
+}
+ul,
+ol,
+p {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  margin: 0;
+  padding: 0;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+img {
+  width: 100%;
+}
+a {
+  display: block;
+  text-decoration: none;
+}
+.reboot-list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.text_20 {
+  font-size: 20px;
+  line-height: 29.64px;
+}
+.text_28 {
+  font-size: 28px;
+  line-height: 41.5px;
+  color: #ffffff;
+}
+.text_32 {
+  font-size: 32px;
+  line-height: 47.72px;
+  color: #ffffff;
+}
+.text_48 {
+  font-size: 48px;
+  line-height: 71.14px;
+}
+
+/*  main header area css start
+***************************************/
+
+.menu-bar {
+  display: none;
+}
+
+/* Start : Banner area css
+**********************************/

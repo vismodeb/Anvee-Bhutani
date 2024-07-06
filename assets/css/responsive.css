@@ -1,0 +1,389 @@
+@media all and (max-width: 1400px) {
+  /* Mobile Menu */
+  .header-logo img {
+    max-width: 200px;
+  }
+  .menu {
+    gap: 50px;
+  }
+  .login ul li a,
+  .menu nav ul li a {
+    font-size: 22px;
+    line-height: 30.57px;
+  }
+  .menu nav ul {
+    gap: 33px;
+  }
+  .login ul {
+    gap: 20px;
+  }
+}
+
+@media all and (max-width: 1200px) {
+  /* Mobile Menu */
+  .header-logo img {
+    max-width: 174px;
+  }
+  .menu {
+    gap: 40px;
+  }
+  .login ul li a,
+  .menu nav ul li a {
+    font-size: 20px;
+  }
+  .menu nav ul {
+    gap: 26px;
+  }
+  .login ul {
+    gap: 16px;
+  }
+  .searchBar form {
+    max-width: 480px;
+    height: 44px;
+  }
+  .text_48 {
+    font-size: 40px;
+    line-height: 64.14px;
+  }
+  .bannerContain h3 {
+    margin-left: 50px;
+  }
+  .text_32 {
+    font-size: 28px;
+    line-height: 40.72px;
+  }
+  .text_28 {
+    font-size: 24px;
+    line-height: 37.5px;
+  }
+  .contactUsBox_1 .form-group {
+    width: 46%;
+  }
+  .ourWork {
+    gap: 26px;
+  }
+  .customerReviews {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .singleCustomerReviews h4 {
+    height: 200px;
+  }
+  .servicesAreaContain {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .servicesWeOffer {
+    width: 100%;
+    max-width: 100%;
+    padding: 30px 90px 60px;
+  }
+  .serviceOliBeing {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .servicesWeOffer ul li {
+    font-size: 34px;
+    line-height: 52.32px;
+  }
+}
+
+@media all and (min-width: 992px) {
+  /* Mobile Menu */
+  .menu {
+    display: flex !important;
+  }
+  .menu nav ul {
+    display: flex !important;
+  }
+}
+
+@media all and (max-width: 991px) {
+  /* Mobile Menu */
+  .header-logo img {
+    max-width: 160px;
+  }
+  .header-title {
+    position: relative;
+  }
+  .menu {
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    background: #802525;
+    width: 100%;
+    height: auto;
+    top: 74px;
+    left: 0;
+    padding: 30px;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    border-top: 1px solid #1252ae;
+    z-index: 9999;
+    border: 1px solid #ffffff;
+  }
+  .menu nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu .login {
+    margin-left: 0;
+  }
+  .menu .login::before {
+    content: "";
+    position: inherit;
+  }
+  .login {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .login .btn1 {
+    max-width: 120px;
+    width: 100%;
+    margin: auto;
+  }
+  /*Start Mobile Menu icon*/
+  .menu-bar {
+    display: block;
+  }
+  #toggleNav-icon {
+    width: 28px;
+    height: 23px;
+    position: relative;
+    margin: 0px;
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    top: 30%;
+    right: 0;
+  }
+  #toggleNav-icon span {
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background: #ffffff;
+    border-radius: 0px;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: 0.25s ease-in-out;
+    -o-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+  }
+  #toggleNav-icon span:nth-child(1) {
+    top: 0px;
+    -webkit-transform-origin: left center;
+    -ms-transform-origin: left center;
+    transform-origin: left center;
+  }
+  #toggleNav-icon span:nth-child(2) {
+    top: 8px;
+    -webkit-transform-origin: left center;
+    -ms-transform-origin: left center;
+    transform-origin: left center;
+  }
+  #toggleNav-icon span:nth-child(3) {
+    top: 16px;
+    -webkit-transform-origin: left center;
+    -ms-transform-origin: left center;
+    transform-origin: left center;
+  }
+  #toggleNav-icon.open span:nth-child(1) {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: -2px;
+    left: 2px;
+  }
+  #toggleNav-icon.open span:nth-child(2) {
+    width: 0%;
+    opacity: 0;
+  }
+  #toggleNav-icon.open span:nth-child(3) {
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    top: 18px;
+    left: 2px;
+  }
+  /*End Mobile Menu icon*/
+  .searchBar form {
+    max-width: 360px;
+    height: 42px;
+  }
+  .text_48 {
+    font-size: 36px;
+    line-height: 58.14px;
+  }
+  .text_32 {
+    font-size: 24px;
+    line-height: 34.72px;
+  }
+  .bannerContain {
+    padding: 100px 0 160px;
+  }
+  .text_28 {
+    font-size: 20px;
+    line-height: 32.5px;
+  }
+  .productsWeUse {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    row-gap: 20px;
+  }
+  .loginRegisterArea .form-control {
+    padding: 0.575rem 0.75rem;
+  }
+  .single_contactUsContain img {
+    max-width: 70px;
+  }
+  .contactUs {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  .ourWork {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .heading {
+    padding: 38px 0 30px;
+  }
+  .serviceOliBeing {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .text_38,
+  .servicesWeOffer ul li {
+    font-size: 30px;
+    line-height: 50.32px;
+  }
+  .priceAreaContain {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .searchBar form {
+    max-width: 300px;
+    height: 40px;
+  }
+  .searchBar form input {
+    padding: 0 32px 0 20px;
+    font-size: 16px;
+  }
+  .search-box .search-box-icon {
+    font-size: 13px;
+    right: 1rem;
+  }
+  .text_48 {
+    font-size: 30px;
+    line-height: 40.14px;
+  }
+  .bannerContain h3 {
+    margin-left: 36px;
+  }
+  .autoRepair {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .autoRepairImg {
+    position: inherit;
+  }
+  .autoRepairContain {
+    position: static;
+  }
+  .search-box {
+    margin-bottom: 10px;
+  }
+  .bannerContain {
+    padding: 95px 0 114px;
+  }
+  .ourWork {
+    gap: 20px;
+  }
+  .text_20 {
+    font-size: 18px;
+    line-height: 26.64px;
+  }
+  .text_32 {
+    font-size: 22px;
+    line-height: 32.72px;
+  }
+  .customerReviews {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .singleCustomerReviews {
+    margin: auto;
+  }
+  .singleCustomerReviews h4 {
+    height: 168px;
+  }
+  .servicesWeOffer {
+    padding: 30px 24px 60px;
+  }
+  .text_38,
+  .servicesWeOffer ul li {
+    font-size: 28px;
+    line-height: 44.32px;
+  }
+}
+
+@media all and (max-width: 575px) {
+  .bannerContain {
+    text-align: center;
+  }
+  .bannerContain h3 {
+    margin-left: 0;
+  }
+  .header-logo img {
+    max-width: 130px;
+  }
+  .menu {
+    top: 60px;
+  }
+  .loginRegister {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contactUsForm {
+    padding: 60px 24px 27px;
+  }
+  .single_contactUsContain img {
+    max-width: 50px;
+  }
+}
+
+@media all and (max-width: 450px) {
+  .searchBar form {
+    max-width: 230px;
+    height: 36px;
+  }
+  .contactUsBox_1 {
+    flex-direction: column;
+    gap: 14px;
+  }
+  .contactUsBox_1 .form-group {
+    width: 100%;
+  }
+  .singleWork {
+    margin: auto;
+  }
+  .ourWork {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 28px;
+  }
+  .serviceOliBeing {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .oilBoxTex,
+  .oilBox {
+    max-width: 100%;
+  }
+}
